@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <title>Warsztat HTML/CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/raleway/stylesheet.css">
+</head>
+
+
+<body class="body">
+
+
+
+    <!-- Czarna belka na gorze - poczatek -->
+    <nav class="top-nav">
+        <div class="container">
+            <!-- LOGO -->
+            <a href="index.html" title="Strona Głowna" class="logo float-left">
+                <span>SIT <strong style="color: #27c7ab;">ON</strong> CHAIR</span>
+                <!-- <img src="images/logo.png" alt="SIT ON CHAIR" /> -->
+            </a>
+
+            <ul class="menu float-right">
+                <li>
+                    <a href="#">O firmie</a>
+                    <!-- <ul>
+                        <li>
+                            <a href="#" title="">Aktualności</a>
+                        </li>
+                        <li>
+                            <a href="#" title="">Nasz team</a>
+                        </li>
+                        <li>
+                            <a href="#" title="">Historia</a>
+                        </li>
+                    </ul> -->
+                </li>
+
+                <li>
+                    <a href="#">Galeria</a>
+                </li>
+                <li>
+                    <a href="#">Kontakt</a>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </nav>
+    <!-- Czarna belka na gorze - koniec -->
+
+
+
+
+    <!-- Header - poczatek -->
+    <header class="header">
+        <div class="container">
+            <section class="carousel">
+
+                <nav class="carousel-nav">
+                    <a href="#prev" class="carousel-nav-left"> < </a>
+                    <a href="#next" class="carousel-nav-right"> > </a>
+                </nav>
+
+                <div class="carousel-inner">
+                    <div class="carousel-left float-left">
+                        <img src="images/photo.png" width="533" alt=""/>
+                    </div>
+                    <div class="carousel-right float-right">
+                        <h1>
+                            SIT
+                            <strong style="color: #27c7ab;">ON</strong>
+                            OUR
+                            <strong style="color: #27c7ab;">CHAIR</strong>
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet enim. Etiam ullamcorper.
+                            Suspendisse a pellentesque dui, non felis.
+                            Maecenas malesuada elit lectus felis, malesuada ultricies.
+                            Curabitur et ligula. Ut molestie a, ultricies porta urna.
+                        </p>
+                        <a href="#" class="button">ZOBACZ WIĘCEJ</a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </section>
+        </div>
+    </header>
+    <!-- Header - koniec -->
+
+
+
+    <!-- Content - Galeria - poczatek -->
+    <section class="content">
+        <div class="container">
+            <section class="gallery row">
+
+
+                <!-- Kolumna 1 -->
+                <div class="column column-image">
+                    <div class="column-inner">
+                        <img src="images/gallery_01.png" alt=""/>
+                        <a href="#">
+                            <span class="gallery-title">
+                                <span class="gallery-title-text">Chair CLAIR</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Kolumna 2 -->
+                <div class="column column-image">
+                    <div class="column-inner">
+                        <img src="images/gallery_02.png" alt=""/>
+                        <a href="#">
+                            <span class="gallery-title">
+                                <span class="gallery-title-text">Chair MARGARITA</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Kolumna 3 -->
+                <div class="column column-text">
+                    <div class="column-inner">
+                        <a href="#">
+                            <span class="gallery-title">
+                                <span class="gallery-title-text">Find all inputs</span>
+                            </span>
+                            <span class="gallery-text">
+                                Finds all inputs that are not checked and
+                                highlights the next sibling span.
+                                Notice there is no change when clicking the checkboxes
+                                since no click events have been linked.
+                                <br/><br/>
+                                Notice there is no change when clicking the
+                                checkboxes since no click events have been linked.
+                                <br/><br/>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </section>
+        </div>
+    </section>
+    <!-- Content - Galeria - koniec -->
+
+
+
+    <!-- Content - Cennik - poczatek -->
+    <section class="content alt-bg">
+        <div class="container">
+            <section class="prices row">
+
+                <header>
+                    <h1>Cennik</h1>
+                </header>
+
+                <!-- Kolumna 1 -->
+                <div class="column column-price">
+                    <div class="column-inner">
+                        <div class="price-box">
+                            <div class="price-box-radio"></div>
+                            <div class="price-box-title">Basic plan</div>
+                            <div class="price-box-price">
+                                <p class="value">85<sup>99</sup></p>
+                                <p class="time">PLN/MSC</p>
+                            </div>
+                            <ul>
+                                <li>Zakup towaru + dowóz</li>
+                                <li>Serwis</li>
+                            </ul>
+                            <a href="#" class="price-button">Dołącz</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Koniec kolumny 1 -->
+
+                <!-- Kolumna 2 -->
+                <div class="column column-price">
+                    <div class="column-inner">
+                        <div class="price-box">
+                            <div class="price-box-radio"></div>
+                            <div class="price-box-title">Standard plan</div>
+                            <div class="price-box-price">
+                                <p class="value">99<sup>99</sup></p>
+                                <p class="time">PLN/MSC</p>
+                            </div>
+                            <ul>
+                                <li>Zakup towaru + dowóz</li>
+                                <li>Serwis</li>
+                                <li>Gwarancja 5 lat</li>
+                            </ul>===
+                            <a href="#" class="price-button">Dołącz</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Koniec kolumny 2 -->
+
+                <!-- Kolumna 3 -->
+                <div class="column column-price">
+                    <div class="column-inner">
+                        <div class="price-box">
+                            <div class="price-box-radio"></div>
+                            <div class="price-box-title">Advanced plan</div>
+                            <div class="price-box-price">
+                                <p class="value">211<sup>99</sup></p>
+                                <p class="time">PLN/MSC</p>
+                            </div>
+                            <ul>
+                                <li>Zakup towaru + dowóz</li>
+                                <li>Serwis</li>
+                                <li>6 lat gwarancji</li>
+                                <li>Porady projektanta</li>
+                            </ul>
+                            <a href="#" class="price-button">Dołącz</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Koniec kolumny 3 -->
+
+                <div class="clear"></div>
+            </section>
+        </div>
+    </section>
+    <!-- Content - Cennik - koniec -->
+
+
+
+    <!-- Content - Kontakt - poczatek -->
+    <section class="content">
+        <div class="container">
+
+            <section class="contact row">
+                <header>
+                    <h1>Kontakt</h1>
+                </header>
+            </section>
+
+            <div class="contact-box">
+
+                <form>
+                    <div class="form-left-col float-left">
+                        <div class="form-group">
+                            <input type="text" name="contact_name" class="input" placeholder="Imię"/>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="contact_email" class="input" placeholder="email"/>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea type="text" name="contact_name" class="input" rows="4" placeholder="Wiadomość"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-right-col float-right">
+                        <div class="form-group">
+                            <img src="images/1.png" alt=""/>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" name="content_agreement" id="content_agreement" class="input" value="agreement">
+                            <label for="content_agreement">Zgadzam sie na przetwarzanie danych osobowych</label>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="contact-button">WYŚLIJ</button>
+                        </div>
+
+                    </div>
+                    <div class="clear"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Content - Kontakt - koniec -->
+
+
+    <!-- Footer - poczatek -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-left-col copyright float-left">
+                Copyright 2014 | All Rights Reserved. - Sit On Chair
+            </p>
+
+            <div class="footer-right-col float-right">
+                <ul class="social-media float-left">
+                    <li><a href="#"><img src="images/flickr.png" alt="filckr"/></a></li>
+                    <li><a href="#"><img src="images/vimeo.png" alt="vimeo"/></a></li>
+                    <li><a href="#"><img src="images/pinterest.png" alt="pinterest"/></a></li>
+                    <li><a href="#"><img src="images/twitter.png" alt="twitter"/></a></li>
+                </ul>
+
+                <a href="#" class="footer-logo">SIT <strong>ON</strong> CHAIR</a>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+    <!-- Footer - koniec -->
+
+
+
+</body>
+</html>
